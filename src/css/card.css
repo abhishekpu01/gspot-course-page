@@ -1,0 +1,87 @@
+.my-carousel{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1rem;
+}
+
+.my-card{
+    width:18vw;
+    height:24vh;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-img{
+    width:100%;
+    height:100%;
+}
+
+.h{
+    width:88%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .my-card{
+
+        width:20vw;
+        height:17vh;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 950px) {
+
+    .my-card{
+
+        width:23vw;
+        height:17vh;
+
+    }
+
+  }
+
+
+  @media only screen and (max-width: 640px) {
+
+    .my-card{
+
+        width:24vw;
+        height:16vh;
+
+    }
+
+    .my-carousel{
+        width:85%;
+    }
+
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    .my-card{
+
+        width:35vw;
+        height:100px;
+
+    }
+
+    .my-carousel{
+        width:80%;
+    }
+
+  }
+
+  @media only screen and (max-width: 300px) {
+
+    h5{
+        font-size:1rem;
+    }
+
+  }
